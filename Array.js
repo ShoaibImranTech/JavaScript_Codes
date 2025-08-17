@@ -10,5 +10,12 @@ console.log(Fruit[5]);
 //Add Element in Array
 Fruit.push("Grapes");
 console.log(Fruit);
-//Get Element Which si added
+//Get Element Which is added
 console.log(Fruit.pop());
+//Add Element To the Strat
+Fruit.unshift("Grapes");
+console.log(Fruit);
+//Remove Element FRom th strat
+Fruit.shift();
+console.log(Fruit);
+
